@@ -141,6 +141,7 @@ p {
   height: 100px;
   border: 1px solid #333;
   background-color: #fff; 
+  opacity: 0.88;
 }
 #name {
   position: absolute;

@@ -1,17 +1,13 @@
 /* Organization */
-.main {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
 
-.circle {
+
+/* image block stuff */
+.image {
   border-radius: 0;
   background-color: #fff;
   width: 200px;
   height: 200px;
 }
-
 .profile {
   background-image: url('../img/profile.jpg');
   background-size: 100% 100%;
@@ -20,18 +16,24 @@
   transition: all 0.1s ease-in-out;
 }
 .profile:hover {
-  
   background-size: 20% 20%;
 }
-
+.profile-inline {
+  display: inline-block;
+  margin-right: 30px;
+}
 .mvmt {
   background-image: url('../img/mvmt.png');
 }
 
+/* section spacing stuff */
 .major {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
+.first {
+  border-top: 1px solid #f8f8f8;
+}
 .header {
   margin: 40px auto;
 }
@@ -39,6 +41,13 @@
   margin: 40px auto;
   text-align: center;
 }
+.title-inline {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+/* links and whatnot */
 .social {
   padding: 0px;
   margin: 0px 10px;
@@ -56,9 +65,10 @@
 
 a {
   text-decoration: none;
+  color: #008BD6;
 }
 
-/* Font stuff */
+/* fonty fonts */
 h1, h2, h3, h4 {
   color: #333;
   font-family: 'Open Sans', sans-serif;
@@ -91,11 +101,73 @@ p {
   line-height: 1.9;
   color: #333;
   font-weight: 300;
-  font-family: Merriweather;
+  font-family: 'Open Sans';
+  letter-spacing: 1px;
   padding-top: 16px;
   margin: 0;
 }
-
 .italics {
   font-style: italic;
 }
+
+/* page layout business */
+.main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.no-scroll {
+  overflow: hidden;
+}
+#footer-spacer {
+  height: 20px;
+}
+
+/* splash page specifics */
+#particles-js {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#box {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;
+  background-color: #fff; 
+}
+#name {
+  position: absolute;
+  top: 15px;
+  left: -21px;
+  background-color: #fff;
+  padding:2px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 8px;
+  font-weight: 300;
+  text-align: left;
+}
+#enter {
+  position: absolute;
+  bottom:5px;
+  right: 5px;
+  color: #333;
+  font-size: 9px;
+}
+
+/* other */
+#and {
+  font-size: 90%;
+  font-weight: 300;
+}
+

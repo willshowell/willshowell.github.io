@@ -12,15 +12,17 @@
   background-image: url('../img/profile.jpg');
   background-size: 100% 100%;
   /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/  
-  transition: all 0.1s ease-in-out;
+  transition: all 0.12s ease-in-out;
 }
 .thumb {
   width: 98px;
   height: 98px;
   margin-top: 30px;
+  background-size: 100% 100%;
 }
-.profile:hover {
+.animated-image:hover {
   background-size: 20% 20%;
+  background-position: 80px 80px;
 }
 .profile-inline {
   display: inline-block;
@@ -29,6 +31,63 @@
 .mvmt {
   background-image: url('../img/mvmt.png');
 }
+.project-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+.experience-logo {
+  width: 48px;
+  height: 48px;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+#outerwear1 {
+  background-image: url('../img/outerwear1.jpg');
+}
+#outerwear2 {
+  background-image: url('../img/outerwear2.jpg');
+}
+#outerwear3 {
+  background-image: url('../img/outerwear3.jpg');
+}
+#outerwear4 {
+  background-image: url('../img/outerwear4.jpg');
+}
+#outerwear5 {
+  background-image: url('../img/outerwear5.jpg');
+}
+#outerwear6 {
+  background-image: url('../img/outerwear6.png');
+}
+#scl1 {
+  background-image: url('../img/scl1.png');
+}
+#scl2 {
+  background-image: url('../img/scl2.png');
+}
+#scl3 {
+  background-image: url('../img/scl3.png');
+}
+#mvmt {
+  background-image: url('../img/mvmt.png');
+}
+#ncsu {
+  background-image: url('../img/ncsu.jpg');
+}
+#d5 {
+  background-image: url('../img/d5.png');
+}
+#mcdean {
+  background-image: url('../img/mcdean.png');
+}
+#signalscape {
+  background-image: url('../img/signalscape.png');
+}
+
 
 /* section spacing stuff */
 .major {
@@ -50,6 +109,11 @@
   display: inline-block;
   vertical-align: top;
   margin-top: 30px;
+}
+.experience-inline {
+  display: inline-block;
+  position: relative;
+  top: -5px;
 }
 
 /* links and whatnot */
